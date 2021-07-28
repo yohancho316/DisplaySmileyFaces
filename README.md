@@ -9,7 +9,7 @@
 
 ## Project Description
 
-This is a  student data management application developed in Python and TKinter. It utilizes the TKinter pillow library to include images to buttons. I've seperated TKinter elements into their own individual classes. The user can change the smilely face color for each button individually or by entire row.
+This is a TKinter GUI application developed in Python and TKinter. It utilizes the TKinter pillow library to attach images to buttons. I've seperated TKinter elements into their own individual classes. The user can change the smilely face color for each button individually or by the entire row.
 ```
 Click on the Image to Watch My Project in Action on YouTube
 ```
