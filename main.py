@@ -13,7 +13,7 @@ class Cube(tk.Tk):
     super().__init__()
     self.title("John's GUI Cube Application")
     self.geometry("380x180")
-    self.resizable(True,True)
+    self.resizable(False,False)
     container = ttk.Frame(self)
     container.grid(padx=10,pady=10,sticky='EW')
     cube_frame = CubeFrame(container).grid(row=0,column=0,sticky='NSEW')
@@ -61,21 +61,24 @@ class CubeFrame(ttk.Frame):
 
   # Change Entire Row One Image Buttons
   def change_row_one(self):
-    self.red_smiley_1.configure(image=self.white_smiley)
-    self.red_smiley_2.configure(image=self.white_smiley)
-    self.red_smiley_3.configure(image=self.white_smiley)
+    random_color = random.randint(0,2)
+    self.red_smiley_1.configure(image=self.colors_list[random_color])
+    self.red_smiley_2.configure(image=self.colors_list[random_color])
+    self.red_smiley_3.configure(image=self.colors_list[random_color])
 
   # Change Entire Row Two Image Buttons
   def change_row_two(self):
-    self.white_smiley_1.configure(image=self.yellow_smiley)
-    self.white_smiley_2.configure(image=self.yellow_smiley)
-    self.white_smiley_3.configure(image=self.yellow_smiley)
+    random_color = random.randint(0,2)
+    self.white_smiley_1.configure(image=self.colors_list[random_color])
+    self.white_smiley_2.configure(image=self.colors_list[random_color])
+    self.white_smiley_3.configure(image=self.colors_list[random_color])
 
   # Change Entire Row Three Image Buttons
   def change_row_three(self):
-    self.yellow_smiley_1.configure(image=self.red_smiley)
-    self.yellow_smiley_2.configure(image=self.red_smiley)
-    self.yellow_smiley_3.configure(image=self.red_smiley)
+    random_color = random.randint(0,2)
+    self.yellow_smiley_1.configure(image=self.colors_list[random_color])
+    self.yellow_smiley_2.configure(image=self.colors_list[random_color])
+    self.yellow_smiley_3.configure(image=self.colors_list[random_color])
 
 ################################# Python Code ##############################################
 cube = Cube()
