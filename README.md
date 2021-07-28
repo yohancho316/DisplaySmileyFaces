@@ -13,7 +13,7 @@ This is a  student data management application developed in Python and TKinter. 
 ```
 Click on the Image to Watch My Project in Action on YouTube
 ```
-[![Watch my Project in Action on YouTube](./images/smiley_cube_image.png)](https://youtu.be/iw9cj7luiWw)
+[![Watch my Project in Action on YouTube](./images/smiley_cube_image.png)](https://www.youtube.com/watch?v=jEK_BHXmWkg)
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ A step by step guide that will tell you how to get the development environment u
 
 Step 1: Clone the repository:
 ```
-https://github.com/yohancho316/StudentDataReader.git
+https://github.com/yohancho316/DisplaySmileyFaces.git
 ```
 Step 2: Use the given command to install project dependencies via Pip:
 ```
