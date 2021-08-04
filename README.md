@@ -13,7 +13,7 @@ This is a TKinter GUI application developed in Python and TKinter. It utilizes t
 ```
 Click on the Image to Watch My Project in Action on YouTube
 ```
-[![Watch my Project in Action on YouTube](./images/smiley_cube_image.png)](https://www.youtube.com/watch?v=jEK_BHXmWkg)
+[![Watch my Project in Action on YouTube](./images/smiley_face_demo.gif)](https://www.youtube.com/watch?v=jEK_BHXmWkg)
 
 ## Getting Started
 
